@@ -22,7 +22,7 @@ if (res) {
 app.use("/user", userRouter);
 //checking backend
 app.use("/", (req, res) => {
-  res.status(200).json({ message: "<h1>Agriculture backend Working<h1>" });
+  res.status(200).json({ message: "<h1>Login page backend Working<h1>" });
 });
 
 //app listen
